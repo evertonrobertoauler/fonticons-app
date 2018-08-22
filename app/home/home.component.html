@@ -3,4 +3,7 @@
   <Label text="Tap the button" class="h1 text-center"></Label>
   <Button text="tap" (tap)="onTap()" class="btn btn-primary btn-active"></Button>
   <Label [text]="getMessage()" class="h2 text-center" textWrap="true"></Label>
+
+  <Label class="fa" text="&#xf0e0;"></Label>
+  <Label class="fa" [text]="'fa-envelope' | fonticon"></Label>
 </StackLayout>
